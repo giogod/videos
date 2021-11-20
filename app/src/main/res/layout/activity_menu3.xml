@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".menu3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="En la actualidad, el abuso de toda clase de sustancias para mejorar el rendimiento deportivo y la forma física se ha extendido a las personas que acuden a gimnasios regularmente. El objetivo del presente estudio es evaluar el consumo de suplementos nutricionales (SN) y dietéticos en un grupo de 415 usuarios (260 varones y 155 mujeres) de 4 gimnasios de Sevilla (España). Los usuarios realizaron un cuestionario previamente diseñado y con un pilotaje donde se evaluó la validez del contenido. Del total de la muestra, el 56,14% han consumido en alguna ocasión algún suplemento. Entre estos el 57,6%, lo hacía buscando mejorar su aspecto físico; el 16,7%, lo hacía para cuidar su salud, y el 13,2%, buscaban aumentar su rendimiento deportivo. El perfil del consumidor es el de un hombre joven, que hace tiempo que realiza actividad en gimnasios, que acude al gimnasio varias horas a la semana y que realiza algún tipo de dieta. El porcentaje de SN consumidos en este estudio (56%) está dentro de los valores aportados por otros estudios. En orden decreciente, Proteínas (28%), L-Carnitina (18,6%), Bebida Deportiva (18,3%), Creatina (17,1%) y Complejo vitamínico (17,1%) fueron los cinco SN más consumido por los sujetos de este estudio."
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Suplementos alimenticios"
+                    android:textSize="34sp" />
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:id="@+id/youtube_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.youtube.player.YouTubePlayerView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

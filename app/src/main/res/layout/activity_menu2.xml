@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".menu2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tipos de cuerpos humanos"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ECTOMORFO El cuerpo ectomorfo es naturalmente delgado, tiene las caderas y hombros estrechos, poca grasa corporal y brazos y piernas muy delgados.     "
+
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MESOMORFO El tipo mesomorfo está entre el ectomorfo y el endomorfo. Son capaces de crear masa muscular fácilmente y genéticamente son el tipo de cuerpo ideal para hacer culturismo. Tienen piernas muy fuertes, hombros anchos y cintura estrecha. En general también tienen poca grasa."
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ENDOMORFO El tipo endomorfo es más redondeado y tiene forma de pera. Tienden a acumular más grasa en todo el cuerpo, sobre todo en piernas y brazos. Es más difícil construir músculo para el endomorfo y más fácil ganar peso. Sin embargo, como mecionamos antes, no tienes que tirarte en el sofá y echarle la culpa a la genética. Puedes estar agradecido por el cuerpo que tienes y trabajarlo para estar en forma y saludable: sólo te llevará algo más de tiempo y esfuerzo que para un mesomorfo."
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:id="@+id/youtube_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
